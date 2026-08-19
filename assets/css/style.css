@@ -1,0 +1,269 @@
+ * {
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ header {
+     height: auto;
+     /* background-color: #174873; */
+ }
+
+ .head {
+     display: flex;
+ }
+
+ .head1 a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .nav-item {
+     color: black;
+     transition: all 0.5s;
+ }
+
+ .nav-link {
+     font-size: 14px;
+     font-weight: 600;
+     transition: all 0.5s;
+ }
+
+ .nav-link:hover {
+     transform: scale(1.20);
+     color: #E79800;
+ }
+
+ .dropdown-menu {
+     background-color: #174873;
+ }
+
+ .dropdown-item {
+     color: white;
+     transition: all 0.5s;
+ }
+
+ .dropdown-item:hover {
+     background-color: #ffa600;
+     color: white;
+ }
+
+ .slider {
+     height: 500px;
+     background-image: url('../img/slider/slider.jpg');
+     background-size: 100% 100%;
+ }
+
+ .opacity {
+     height: 500px;
+     background-color: black;
+     opacity: 0.5;
+ }
+
+ .text {
+     /* background-color: aquamarine; */
+     margin-top: -400px;
+     color: white;
+     position: relative;
+ }
+
+ .text h1 {
+     font-weight: 900;
+     color: #E79800;
+ }
+
+ .text button {
+     background-color: #174873;
+     color: white;
+     height: 60px;
+     border-radius: 10px;
+     transition: all 0.5s;
+ }
+
+ .text button:hover {
+     background-color: #E79800;
+     color: white;
+ }
+
+ body {
+     background-color: #F3F3F3;
+ }
+
+ .card {
+     overflow: hidden;
+     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+     transition: all 0.5s;
+ }
+
+ .card:hover {
+     box-shadow: 5px 5px 12px rgb(231, 152, 0, 0.5);
+     transform: translateY(-7px);
+ }
+
+ .card a {
+     text-decoration: none;
+     color: white;
+     border-radius: 10px;
+     font-weight: 600;
+     background-color: #174873;
+     transition: all 0.5s;
+ }
+
+ .card a:hover {
+     background-color: #E79800;
+
+ }
+
+ main h1 {
+     color: #E79800;
+ }
+
+ footer {
+     background-color: #174873;
+     font-weight: 900;
+ }
+
+ footer h2::after {
+     content: "\2665  Abdul Basit";
+     color: rgb(65, 255, 189);
+ }
+
+ footer h2 {
+     font-size: 15px;
+     font-weight: 900;
+ }
+
+ footer .row {
+     font-size: 18px;
+ }
+
+ /* Contact Us Page Css */
+ .banner {
+     height: 300px;
+     background-image: url('../img/banner/contact-us-bg.jpg');
+     background-size: 100% 100%;
+ }
+
+ .banner-opacity {
+     height: 300px;
+     background-color: #174873;
+     opacity: 0.7;
+ }
+
+ .banner h1 {
+     margin-top: -150px;
+     position: relative;
+ }
+
+ .contact-card {
+     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+     height: 230px;
+     background-color: white;
+     border-radius: 10px;
+     display: flex;
+     transition: all 0.5s;
+ }
+
+ .contact-card h4 {
+     color: #E79800;
+     font-weight: 900;
+ }
+
+ .contact-card:hover {
+    box-shadow: 5px 5px 12px rgb(231, 152, 0, 0.5);
+     transform: translateY(-5px);
+
+ }
+
+ form {
+     background-color: #ffffff;
+     height: auto;
+     border-radius: 25px;
+     width: 75%;
+     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ form input {
+     width: 100%;
+     border: solid 1.5px rgb(39, 39, 33);
+     border-radius: 20px;
+ }
+
+ textarea {
+     width: 100%;
+     border: solid 1.5px rgb(39, 39, 33);
+     border-radius: 8px;
+     height: 90px;
+ }
+
+ form h1 {
+     font-weight: 900;
+ }
+
+ .form-button {
+     background-color: #174873;
+     color: white;
+     font-weight: 900;
+     /* width: 10%; */
+     border-radius: 15px;
+     box-sizing: border-box;
+     height: 60px;
+     transition: all 0.5s;
+ }
+
+ .form-button:hover {
+     background-color: #E79800;
+     color: black;
+     border: none;
+ }
+
+ @media(max-width: 768px) {
+     .nav-link:hover {
+         transform: scale(1.0);
+         color: #E79800;
+     }
+
+ }
+
+ .map h1 {
+     font-weight: 900;
+ }
+
+ .detail {
+     border-radius: 20px;
+ }
+
+ .detail h2{
+    font-weight: 800;
+    color: #E79800;
+ }
+
+ .detail h5{
+    font-weight: 800;
+    color: #E79800;
+ }
+
+ .detail:hover{
+    transform: scale(1.02);
+ }
+
+  .detail-a {
+    text-align: center;
+    padding: 20px;
+     text-decoration: none;
+     color: white;
+     border-radius: 10px;
+     font-weight: 900;
+     background-color: #174873;
+     transition: all 0.5s;
+ }
+
+ .detail-a:hover {
+     background-color: #E79800;
+
+ }
+
+
+
+
+
+
+ 
